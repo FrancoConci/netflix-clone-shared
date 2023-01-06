@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/FrancoConci/netflix-clone-shared/issues"
   },
-  "homepage": "https://github.com/FrancoConci/netflix-clone-shared#readme"
+  "homepage": "https://github.com/FrancoConci/netflix-clone-shared#readme",
+  "publishConfig": {
+    "@francoconci:registry": "https://npm.pkg.github.com"
+  }
 }
