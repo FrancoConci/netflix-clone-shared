@@ -4,7 +4,8 @@
   "description": "Shared values and resources for Franco's netflix-clone project",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "internal-test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,21 @@
   "homepage": "https://github.com/FrancoConci/netflix-clone-shared#readme",
   "publishConfig": {
     "@francoconci:registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.5",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "transform": {
+      "node_modules/variables/.+\\.(j|t)sx?$": "ts-jest"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!variables/.*)"
+    ]
   }
 }
