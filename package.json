@@ -1,0 +1,22 @@
+{
+  "name": "@francoconci/netflix-clone-shared",
+  "version": "1.0.0",
+  "description": "Shared values and resources for Franco's netflix-clone project",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoConci/netflix-clone-shared.git"
+  },
+  "keywords": [
+    "shared"
+  ],
+  "author": "francoconci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrancoConci/netflix-clone-shared/issues"
+  },
+  "homepage": "https://github.com/FrancoConci/netflix-clone-shared#readme"
+}
