@@ -1,6 +1,6 @@
 {
   "name": "@francoconci/netflix-clone-shared",
-  "version": "1.0.0",
+  "version": "1.10.0",
   "description": "Shared values and resources for Franco's netflix-clone project",
   "main": "index.js",
   "scripts": {
